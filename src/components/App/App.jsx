@@ -13,7 +13,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div id="content">
+      <div className="content">
         <Display />
         <ButtonPanel />
       </div>

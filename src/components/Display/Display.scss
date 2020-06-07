@@ -1,0 +1,13 @@
+.display {
+  display: flex;
+  justify-content: flex-end;
+  background-color: gray;
+  height: 100px;
+
+  p {
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: right;
+  }
+}

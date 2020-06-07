@@ -4,7 +4,9 @@ import PropType from 'prop-types';
 import './Display.scss';
 
 const Display = ({ result }) => (
-  <div>{result}</div>
+  <div className="display">
+    <p>{result}</p>
+  </div>
 );
 
 Display.propTypes = {
