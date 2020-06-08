@@ -5,9 +5,13 @@
   height: 100px;
 
   p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-weight: bold;
     padding: 20px;
     text-align: right;
+    font-size: 30px;
   }
 }
