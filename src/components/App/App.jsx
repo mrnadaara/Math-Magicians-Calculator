@@ -13,9 +13,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div id="content">
-        <Display />
-        <ButtonPanel />
+      <div className="container">
+        <div className="content">
+          <Display />
+          <ButtonPanel />
+        </div>
       </div>
     );
   }
