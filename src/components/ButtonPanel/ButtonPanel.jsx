@@ -10,13 +10,13 @@ const ButtonPanel = () => (
       <Button name="AC" color="lightgrey" />
       <Button name="+/-" color="lightgrey" />
       <Button name="%" color="lightgrey" />
-      <Button name="/" />
+      <Button name="÷" />
     </div>
     <div className="group">
       <Button name="7" color="lightgrey" />
       <Button name="8" color="lightgrey" />
       <Button name="9" color="lightgrey" />
-      <Button name="X" />
+      <Button name="x" />
     </div>
     <div className="group">
       <Button name="4" color="lightgrey" />
