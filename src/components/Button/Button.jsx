@@ -6,7 +6,7 @@ import './Button.scss';
 class Button extends React.Component {
   handleClick = buttonName => {
     const { clickHandler } = this.props;
-    return clickHandler(buttonName);
+    clickHandler(buttonName);
   }
 
   render() {

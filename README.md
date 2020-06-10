@@ -1,6 +1,6 @@
 # Math Magician's Calculator
 
-## A simple and aesthetically pleasing calculator built with React.JS
+## A simple and aesthetically pleasing calculator built with React and Big.js
 
 ![alt text](./docs/demo.gif)
 
@@ -16,15 +16,16 @@ You can click [here for a live demo of this project](https://mmcalculator.heroku
 
 ### Testing
 
-This app currently has unit tests for...
+This app currently has unit tests using jest. You can test by running ``` yarn test ```
 
 Following functions were tested:
 
-- N/A
+- calculate.js
 
 ### Future releases
 
-1. N/A
+1. Add animations for buttons
+2. Allow more than 2 numbers to operated on at the same time
 
 # Contributor:
 
