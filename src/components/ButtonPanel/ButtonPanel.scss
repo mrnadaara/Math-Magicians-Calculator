@@ -1,0 +1,10 @@
+.button-panel {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  .group {
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+  }
+}
